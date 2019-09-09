@@ -36,7 +36,7 @@ $(function() {
         'background-color':'',
         "box-shadow":""
       });
-      $('#topbar').append("<style>#topbar li:before{background-color:#F1632A}<styple>");
+      $('#topbar').append("<style>#topbar li:before{background-color:#F1632A}<style>");
       $('.m-topbar').stop().animate({top:'0px'});
       $('.m-topbar').css({'background-color':'',"box-shadow":""});
     }else{
@@ -45,7 +45,7 @@ $(function() {
         "background-color":"#fff",
         "box-shadow":"0px 0px 5px rgba(0,0,0,.2)"
       });
-      $('#topbar').append("<style>#topbar li:before{background-color:#F1632A}<styple>");
+      $('#topbar').append("<style>#topbar li:before{background-color:#F1632A}<style>");
       // index-m-topbar
       $('.m-topbar').stop().animate({top:'0px'});
       $('.m-topbar').css({"background-color":"#fff","box-shadow":"0px 0px 5px rgba(0,0,0,.2)","height":"90px"});
